@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<htm>
+
+<head>
+
+    <title>Mini Project 3</title>
+</head>
+
+<bod>
+
+    <h1 id="sentence"> </h1>
+
+    <script>
+
+
+        var numberNode =  prompt("Input a number");
+
+        var sentenceNode = document.getElementById("sentence");
+      
+
+        numberNode = Number(numberNode);
+
+        if(numberNode && numberNode>18){
+            sentenceNode.innerText = "The "+numberNode+" number is over 18";
+        } else{
+            sentenceNode.innerText = "The "+numberNode+" number is lower 18, or is not a number";
+        }
+
+        
+
+    
+    </script>
+
+    
+</bod>
+
+
+
+
+</htm>
